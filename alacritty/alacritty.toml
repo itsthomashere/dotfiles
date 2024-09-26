@@ -1,16 +1,16 @@
 import= ["~/.config/alacritty/color.toml"]
 [window]
 decorations = "None"
-opacity = 0.8
+opacity = 1
 startup_mode = "Maximized"
 resize_increments = true 
 blur = true
 [font]
-normal = {family ="Cascadia Code NF"}
-bold = {family ="Cascadia Code NF"}
-italic = {family ="Cascadia Code NF"}
-bold_italic = {family ="Cascadia Code NF"}
-size = 15
+normal = {family ="Maple Mono NF"}
+bold = {family ="Maple Mono NF"}
+italic = {family ="Maple Mono NF"}
+bold_italic = {family ="Maple Mono NF"}
+size = 20
 [mouse]
 hide_when_typing = true
 [env]
