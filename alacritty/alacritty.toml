@@ -1,16 +1,20 @@
 import= ["~/.config/alacritty/color.toml"]
 [window]
 decorations = "None"
-opacity = 1
+opacity = 0.8
 startup_mode = "Maximized"
 resize_increments = true 
 blur = true
 [font]
-normal = {family ="GoMono Nerd Font"}
-bold = {family ="GoMono Nerd Font"}
-italic = {family ="GoMono Nerd Font"}
-bold_italic = {family ="GoMono Nerd Font"}
-size = 19
+normal = {family ="JetBrainsMono NFM"}
+bold = {family ="JetBrainsMono NFM"}
+italic = {family ="JetBrainsMono NFM"}
+bold_italic = {family ="JetBrainsMono NFM"}
+# normal = {family ="Comic Shanns Mono"}
+# bold = {family ="Comic Shanns Mono"}
+# italic = {family ="Comic Shanns Mono"}
+# bold_italic = {family ="Comic Shanns Mono"}
+size = 20
 [mouse]
 hide_when_typing = true
 [env]
