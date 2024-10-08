@@ -7,12 +7,6 @@ general {
   color_bad = "#FF5555"
 }
 
-order += "disk /"
-order += "wireless wlp4s0"
-order += "ethernet enp0s25"
-order += "cpu_temperature 0"
-order += "cpu_usage 0"
-order += "load"
 order += "tztime local"
 order += "volume master"
 order += "battery 1"
