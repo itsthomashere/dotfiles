@@ -41,7 +41,7 @@ bindsym $mod+Shift+q kill
 bindcode $mod+40 exec "rofi -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
-bindsym $mod+x exec rofi -show power-menu -modi "power-menu:~/.local/bin/rofi-power-menu --choices=reboot/shutdown/suspend/logout"
+bindsym $mod+x exec "rofi -show power-menu -modi 'power-menu:~/.local/bin/rofi-power-menu --choices=reboot/shutdown/suspend/logout'"
 bindsym $mod+Shift+s exec gnome-screenshot -c -i
 bindsym $mod+Shift+d exec "rofi -show run"
 

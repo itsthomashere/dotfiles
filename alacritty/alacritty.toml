@@ -1,21 +1,23 @@
-import= ["~/.config/alacritty/color.toml"]
 [window]
 decorations = "None"
-opacity = 0.7
+opacity = 0.85
 startup_mode = "Maximized"
 resize_increments = true 
 blur = true
 [font]
-normal = {family ="Cascadia Mono NF"}
-bold = {family ="Cascadia Mono NF"}
-italic = {family ="Cascadia Mono NF"}
-bold_italic = {family ="Cascadia Mono NF"}
+normal = {family ="CascadiaCode NF" }
+bold = {family ="CascadiaCode NF"}
+italic = {family ="CascadiaCode NF"}
+bold_italic = {family ="CascadiaCode NF"}
 # normal = {family ="Comic Shanns Mono"}
 # bold = {family ="Comic Shanns Mono"}
 # italic = {family ="Comic Shanns Mono"}
 # bold_italic = {family ="Comic Shanns Mono"}
-size = 15
+size = 16.5
 [mouse]
 hide_when_typing = true
 [env]
 TERM = "xterm-256color"
+
+[general]
+import= ["~/.config/alacritty/color.toml"]
