@@ -9,10 +9,10 @@ configuration {
 * {
     font: "MapleMono NF 12";
     foreground: #f8f8f2;
-    background-color: #282a36;
-    active-background: #6272a4;
+    background-color: #1d2021;
+    active-background: #504945;
     urgent-background: #ff5555;
-    urgent-foreground: #282a36;
+    urgent-foreground: #d4be98;
     selected-background: @active-background;
     selected-urgent-background: @urgent-background;
     selected-active-background: @active-background;
